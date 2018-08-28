@@ -21,8 +21,12 @@
   },
   "homepage": "https://github.com/ALB24/MLC_App#readme",
   "dependencies": {
+    "image-webpack-loader": "^4.3.1",
+    "mdbreact": "^4.7.0",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1",
+    "url-loader": "^1.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
