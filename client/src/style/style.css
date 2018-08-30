@@ -1,0 +1,47 @@
+/* NavBar */
+
+.navbar {
+  padding-top: 2px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.nav-top-link {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  width: 60%;
+  max-width: 400px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.logoImg {
+  width: 60%;
+  max-width: 400px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.dropdown-menu {
+  padding: 10px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+
+.dropdown-menu li a:hover {
+  color: #1abc9c !important;
+}

@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ALB24/MLC_App#readme",
   "dependencies": {
+    "@material-ui/core": "^3.0.1",
     "image-webpack-loader": "^4.3.1",
     "mdbreact": "^4.7.0",
     "react": "^16.4.2",
