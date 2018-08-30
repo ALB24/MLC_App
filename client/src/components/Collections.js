@@ -9,7 +9,7 @@ export default class Collections extends Component {
 
         <div className="col-12">
           <hr className="dark" />
-          <h1 className="display-4"> Collections </h1>
+          <h1 className="display-4"> Signature Collections </h1>
           <hr className="dark"/>
         </div>
 

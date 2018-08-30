@@ -17,9 +17,11 @@ export default class Trending extends Component {
           <hr className="dark" />
         </div>
 
-        <div className="col-sm-6 col-md-3">
+        <div className="col-md-6 col-xl-3">
           <div className="card">
-            <img src={NutsAndBolts} />
+            <div className="card-header">
+              <img src={NutsAndBolts} />
+            </div>
             <div className="card-body">
               <h5>Nuts & Bolts</h5>
               <p><strong>$25.00</strong></p>
@@ -30,9 +32,11 @@ export default class Trending extends Component {
           </div>
         </div>
 
-        <div className="col-sm-6 col-md-3">
+        <div className="col-md-6 col-xl-3">
           <div className="card">
-            <img src={GatherBundle}/>
+            <div className="card-header">
+              <img src={GatherBundle}/>
+            </div>
             <div className="card-body">
               <h5>Gather Together Bundle</h5>
               <p><strong>$65.00</strong></p>
@@ -43,9 +47,11 @@ export default class Trending extends Component {
           </div>
         </div>
 
-        <div className="col-sm-6 col-md-3">
+        <div className="col-md-6 col-xl-3">
           <div className="card">
-            <img src={TxBoots}/>
+            <div className="card-header">
+              <img src={TxBoots}/>
+            </div>
             <div className="card-body">
               <h5>Boot Scootin' Sweets</h5>
               <p><strong>$38.00</strong></p>
@@ -56,9 +62,11 @@ export default class Trending extends Component {
           </div>
         </div>
 
-        <div className="col-sm-6 col-md-3">
+        <div className="col-md-6 col-xl-3">
           <div className="card">
-            <img src={Jewels}/>
+            <div className="card-header">
+              <img src={Jewels}/>
+            </div>
             <div className="card-body">
               <h5>Chocolate Jewels</h5>
               <p><strong>$25.00</strong></p>
@@ -68,7 +76,7 @@ export default class Trending extends Component {
             </div>
           </div>
         </div>
-        
+
       </div>
 			</div>
 		);

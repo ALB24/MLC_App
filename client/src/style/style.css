@@ -142,6 +142,7 @@ html, body {
 
 .card {
   /* height: 400px; */
+  min-width: 200px;
   min-height: 400px;
 }
 
