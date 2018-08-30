@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
 import Carousel from './Carousel';
-import Jumbotron from './Jumbotron';
+import Collections from './Collections';
 import AboutUs from './AboutUs';
 import Trending from './Trending';
+import SocialMedia from './SocialMedia';
+import Footer from './Footer';
 
 export default class App extends Component {
 	render () {
@@ -12,8 +14,10 @@ export default class App extends Component {
 				<Nav />
 				<Carousel />
 				<Trending />
-				<Jumbotron />
+				<Collections />
 				<AboutUs />
+				<SocialMedia />
+				<Footer />
 			</div>
 		);
 	}
