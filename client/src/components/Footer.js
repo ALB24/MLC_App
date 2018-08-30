@@ -9,24 +9,26 @@ export default class Footer extends Component {
         <div className="container-fluid padding">
         <div className="row text-center">
 
+          <hr className="dark"/>
+
           <div className="col-md-4">
-            <hr className="light" />
+            <hr className="dark" />
             <h5>Our Hours</h5>
-            <hr className="light" />
+            <hr className="dark" />
             <p> Monday-Friday: 9am to 5pm</p>
             <p> Saturday and Sunday: Closed</p>
             <p> * For Holiday Hours Check our Calander</p>
-            <hr className="light" />
+            <hr className="dark" />
             <h5>Location</h5>
-            <hr className="light" />
+            <hr className="dark" />
             <p>1017 East 6th Street</p>
             <p>Austin, Texas 78702</p>
           </div>
 
           <div className="col-md-4">
-            <hr className="light" />
+            <hr className="dark" />
             <h5>Links</h5>
-            <hr className="light" />
+            <hr className="dark" />
             <p><a href="#">About</a></p>
             <p><a href="#">Help / FAQ</a></p>
             <p><a href="#">Privacy Policy</a></p>
@@ -37,9 +39,9 @@ export default class Footer extends Component {
           </div>
 
           <div className="col-md-4">
-            <hr className="light" />
+            <hr className="dark" />
             <h5>Newsletter</h5>
-            <hr className="light" />
+            <hr className="dark" />
             <p className="text-left">Become an insider and be the first to know about new collections, special events, unique promotions and more. </p>
             <form>
               <div className="input-group">
@@ -55,7 +57,7 @@ export default class Footer extends Component {
             </form>
           </div>
           <div className="col-12">
-            <hr className="light" />
+            <hr className="dark" />
             <h5>&copy; <img className="logoImg" src={mlcLogo} /> & <strong>ALB</strong></h5>
           
           </div>

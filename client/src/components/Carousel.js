@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import Harvest1 from '../imges/Harvest1_600x.jpg';
-import Harvest2 from '../imges/HarvestChocolates2_600x.png';
+
 import YouRock from '../imges/you_rock.jpg';
-import BlueRocks from '../imges/rocks.jpeg';
-import account_icon from '../imges/accountPersonSmall.png';
+import Rocks from '../imges/you-rock-chocolates.png';
+import PinkRocks from'../imges/YouRockPinkwithLovebanner.jpg';
+import MLCDesk from '../imges/MLCDesk.jpg';
 import mlcLogo from '../imges/MLClogo.png';
-import shopping_cart from '../imges/shoppingCart.png';
 
 
 export default class Carousel extends Component {
@@ -22,19 +21,24 @@ export default class Carousel extends Component {
         {/* <!-- Wrapper for slides --> */}
 				<div className="carousel-inner" role="listbox">
           <div className="carousel-item active">
-            <img className="d-block w-100" src={YouRock} />
+            <img className="col-12" src={MLCDesk} />
             <div className="carousel-caption">
-              <h1 className="display-2">Something to say</h1>
-              <h3>Check it out</h3>
-              <button type="button" className="btn btn-outline-secondary btn-lg">Click Here</button>
-              <button type="button" className="btn btn-primary btn-lg">Lets Go</button>
+              <h1 className="display-2">Legendary Austin Confections</h1>
             </div>
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src={BlueRocks} />
+            <img className="col-6" src={PinkRocks} />
+            <img className="col-6" src={YouRock} />
+            <div className="carousel-caption">
+              <h3>Pre-Order Now</h3>
+              <button type="button" className="btn btn-info btn-lg">Click Here</button>
+            </div>
           </div>
           <div className="carousel-item">
-            <img className="img-responsive center-block" src={Harvest2} />
+            <img src={Rocks} />
+            <div className="carousel-caption">
+                <h3>Check Out Our Collections</h3>
+            </div>
           </div>
         </div>
 
